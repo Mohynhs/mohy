@@ -1,0 +1,27 @@
+/*
+	Name: SUM-sub-multi-div
+	Copyright: QIUA
+	Author: Mohammad ali noorhosseini
+	Date: 07/04/23 00:58
+	Description: This project wants to calculate the sum, subtraction, multiplication and division of 2 integers
+*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	float n1,n2,sum,sub,multi,div;
+	cout<<"enter first number>>";
+	cin>>n1;
+	cout<<"enter second number>>";
+	cin>>n2;
+	sum=n1+n2;
+	sub=n1-n2;
+	multi=n1*n2;
+	div=n1/n2;
+	cout<<"your sum:"<<sum<<"\n";
+	cout<<"your sub:"<<sub<<"\n";
+	cout<<"your multi:"<<multi<<"\n";
+	cout<<"your div:"<<div<<"\n"<<endl;
+	return 0;
+}
