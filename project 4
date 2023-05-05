@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int hours,minutes,seconds;
+	cout<<"Enter the number pf seconds in the football game:";
+	cin>>seconds;
+	hours=seconds/3600;
+	seconds%=3600;
+	minutes=seconds/60;
+	cout<<"The football game lasted for"<<hours<<"hours,"<<"seconds."<<'end';
+	
+	return 0;
+}
