@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"       *      "<<'end';
+	cout<<"     *   *     "<<'end';
+	cout<<"   *       *     "<<'end';
+	cout<<"  *         *     "<<'end';
+	cout<<"  ***********     "<<'end';
+	cout<<"  *         *     "<<'end';
+	cout<<"  *         *     "<<'end';
+	
+	return 0;
+}
